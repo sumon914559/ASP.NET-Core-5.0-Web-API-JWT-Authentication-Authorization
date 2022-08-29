@@ -2,4 +2,5 @@
 
  # use rider editor
   dotnet ef migrations add ModifiedReliefRecipientModel --project "WebAPI"
+  
   dotnet ef database update --project "WebAPI"
